@@ -1,0 +1,2 @@
+node ./motion.js
+pause
