@@ -832,6 +832,34 @@ bool readTagValue(String tag,String shortTag , int16_t *val) {
   return false;
 }
 
+bool readTagString(String tag,String shortTag , String *val) {
+  int firstTag = gSerialInputCommand.indexOf(tag);
+  if(firstTag > 0) {
+    String tagStr = gSerialInputCommand.substring(firstTag+tag.length());
+    int nextTag = tagStr.indexOf(":");
+    if(nextTag > 0) {
+      //DUMP_VAR(tagStr);
+      String value = tagStr.substring(0,nextTag);
+      *val =value;
+      return true;
+    }
+  }
+  int firstShortTag = gSerialInputCommand.indexOf(shortTag);
+  if(firstShortTag > 0) {
+    String tagStr = gSerialInputCommand.substring(firstShortTag+shortTag.length());
+    DUMP_VAR(tagStr);
+    int nextTag = tagStr.indexOf(":");
+    if(nextTag > 0) {
+      //DUMP_VAR(tagStr);
+      String value = tagStr.substring(0,nextTag);
+      *val =value;
+      return true;
+    }
+  }
+  return false;
+}
+
+
 void runGPIO(void) {
   //DUMP_VAR(gSerialInputCommand);
   int first = gSerialInputCommand.indexOf(":");

@@ -1,5 +1,7 @@
 {
   "dependencies": {
-    "serialport": "^7.1.5"
+    "redis": "^2.8.0",
+    "serialport": "^7.1.5",
+    "ws": "^7.1.1"
   }
 }

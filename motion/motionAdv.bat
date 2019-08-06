@@ -1,0 +1,2 @@
+node ./motionAdv.js
+pause

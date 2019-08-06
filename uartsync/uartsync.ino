@@ -7,6 +7,7 @@
   Serial.print("\r\n");\
 }
 
+#define DUMP_VAR(x) {}
 
 void setup() {
   Serial.begin(115200);
@@ -58,10 +59,8 @@ void response(const String & response) {
 void loop() {
   if (Serial.available()) {      // If anything comes in Serial (USB),
     char broadcast = Serial.read();
-    //Serial.write(broadcast);
     Serial1.write(broadcast);   // read it and send it out Serial1 (pins 0 & 1)
-    //Serial2.write(broadcast);   // read it and send it out Serial1 (pins 0 & 1)
-    //Serial3.write(broadcast);   // read it and send it out Serial1 (pins 0 & 1)
+    //runSerialCommand();
   }
 
   if (Serial1.available()) {     // If anything comes in Serial1 (pins 0 & 1)
@@ -98,4 +97,104 @@ void loop() {
     }
   }
   //Serial.print("\r\n");
+}
+
+static String gSerialInputCommand = "";
+void runSerialCommand(void) {
+  if (Serial.available() > 0) {
+    char incomingByte = Serial.read();
+    if(incomingByte =='\n' || incomingByte =='\r') {
+      run_comand();
+      gSerialInputCommand = "";
+    } else {
+      gSerialInputCommand += incomingByte;
+    }
+    if(gSerialInputCommand.length() > 128) {
+      gSerialInputCommand = "";
+    }
+  }
+}
+
+void run_comand(void) {
+  if(gSerialInputCommand.startsWith("legM:") || gSerialInputCommand.startsWith("M:")) {
+    parseAdvanceLegCommand();
+  }
+}
+
+
+void parseAdvanceLegCommand() {
+  String legCombi;
+  if(readTagString(":id,",":id,",&legCombi)) {
+    DUMP_VAR(legCombi);
+    if(legCombi == "aa") {
+      String New1(gSerialInputCommand);
+      New1.replace("aa","2");
+      String New2(gSerialInputCommand);
+      New2.replace("aa","4");
+      String New3(gSerialInputCommand);
+      New3.replace("aa","6");
+      DUMP_VAR(New3);
+      DUMP_VAR(New2);
+      DUMP_VAR(New1);
+    }
+    if(legCombi == "bb") {
+      String New1(gSerialInputCommand);
+      New1.replace("bb","3");
+      String New2(gSerialInputCommand);
+      New2.replace("bb","5");
+      String New3(gSerialInputCommand);
+      New3.replace("bb","7");
+      DUMP_VAR(New3);
+      DUMP_VAR(New2);
+      DUMP_VAR(New1);
+    }
+    if(legCombi == "ab") {
+      String New1(gSerialInputCommand);
+      New1.replace("ab","2");
+      String New2(gSerialInputCommand);
+      New2.replace("ab","4");
+      String New3(gSerialInputCommand);
+      New3.replace("ab","6");
+      String New4(gSerialInputCommand);
+      New4.replace("ab","3");
+      String New5(gSerialInputCommand);
+      New5.replace("ab","5");
+      String New6(gSerialInputCommand);
+      New6.replace("ab","7");
+      DUMP_VAR(New6);
+      DUMP_VAR(New5);
+      DUMP_VAR(New4);
+      DUMP_VAR(New3);
+      DUMP_VAR(New2);
+      DUMP_VAR(New1);
+    }
+  }
+}
+
+
+bool readTagString(String tag,String shortTag , String *val) {
+  int firstTag = gSerialInputCommand.indexOf(tag);
+  if(firstTag > 0) {
+    String tagStr = gSerialInputCommand.substring(firstTag+tag.length());
+    int nextTag = tagStr.indexOf(":");
+    if(nextTag > 0) {
+      //DUMP_VAR(tagStr);
+      String value = tagStr.substring(0,nextTag);
+      *val =value;
+      return true;
+    }
+  }
+  int firstShortTag = gSerialInputCommand.indexOf(shortTag);
+  if(firstShortTag > 0) {
+    String tagStr = gSerialInputCommand.substring(firstShortTag+shortTag.length());
+    DUMP_VAR(tagStr);
+    int nextTag = tagStr.indexOf(":");
+    if(nextTag > 0) {
+      //DUMP_VAR(tagStr);
+      String value = tagStr.substring(0,nextTag);
+      *val =value;
+      return true;
+    }
+  }
+  return false;
 }
