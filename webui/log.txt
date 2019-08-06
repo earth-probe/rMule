@@ -1,0 +1,7866 @@
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+ >
+onWSSMsg msg=< {"info":{}} >
+trans2serial msg=< { info: {} } >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
+jsonLike=< {"volume":} >
+e2=< SyntaxError: Unexpected token } in JSON at position 10
+    at JSON.parse (<anonymous>)
+    at tryParseResponse (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:58:23)
+    at tryParseMultiLine (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:42:18)
+    at SerialPort.<anonymous> (C:\Users\yma.INTRA\Desktop\rMule\webui\serial.js:27:5)
+    at emitOne (events.js:116:13)
+    at SerialPort.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    at SerialPort.Readable.push (_stream_readable.js:208:10)
+    at binding.read.then.bytesRead (C:\Users\yma.INTRA\node_modules\@serialport\stream\stream.js:384:12) >
+dataBuffer=< start rMule leg
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+{"volume":}
+ >
