@@ -101,6 +101,7 @@ const int  iEROMPayloadPWMOffsetAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 
 const int  iEROMStartDelayAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 26,iEROMLegIdAddress[1] + 28};
 const int  iEROMPWMGainEmptyAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 30,iEROMLegIdAddress[1] + 32};
 const int  iEROMPWMGainPlayLoadAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 34,iEROMLegIdAddress[1] + 36};
+const int  iEROMGroupAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 38,iEROMLegIdAddress[1] + 40};
 const int  iEROMPWMLogLevelAddress = iEROMLegIdAddress[1] + 256;
 
 
@@ -116,6 +117,7 @@ int16_t  iEROMPayloadPWMOffset[MAX_MOTOR_CH] = {0,0};
 
 uint16_t  iEROMPWMGainEmpty[MAX_MOTOR_CH] = {4*100,4*100};
 uint16_t  iEROMPWMGainPlayLoad[MAX_MOTOR_CH] = {6*100,6*100};
+uint16_t  iEROMGroup[MAX_MOTOR_CH] = {0x0,0x0};
 
 bool bZeroPositionNearSmall[MAX_MOTOR_CH] = {false,false};
 
@@ -181,6 +183,9 @@ void loadEROM(void) {
 
   loadEROM2Byte(0,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad);
   loadEROM2Byte(1,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad);
+
+  loadEROM2Byte(0,iEROMGroupAddress,iEROMGroup);
+  loadEROM2Byte(1,iEROMGroupAddress,iEROMGroup);
 
   //DUMP_VAR(iEROMWheelMaxFront[0]);
   //DUMP_VAR(iEROMZeroPosition[0]);
@@ -275,6 +280,9 @@ void runSetting(void) {
 
   saveEROM2Byte(0,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad,":pwmGainPL0,");
   saveEROM2Byte(1,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad,":pwmGainPL1,");
+
+  saveEROM2Byte(0,iEROMGroupAddress,iEROMGroup,":group0,");
+  saveEROM2Byte(1,iEROMGroupAddress,iEROMGroup,":group1,");
 
 }
 
@@ -419,6 +427,9 @@ void run_comand(void) {
   }
   if(gSerialInputCommand.startsWith("legG:") || gSerialInputCommand.startsWith("P:")) {
     getLegPosition();
+  }
+  if(gSerialInputCommand.startsWith("groupM:") || gSerialInputCommand.startsWith("C:")) {
+    moveGroupToPosition();
   }
 }
 void runInfo(void) {
@@ -637,6 +648,51 @@ void moveLegToPosition() {
   }
   String resTex;
   resTex += "legM:0";
+  responseTextTag(resTex);
+}
+
+
+void moveGroupToPosition() {
+  int idLeg = 0;
+  if(readTagValue(":id,",":id,",&idLeg)) {
+    DUMP_VAR(idLeg);
+    int legIndex = -1;
+    if(iEROMLegId[0] == idLeg) {
+      legIndex = 0;
+    }
+    if(iEROMLegId[1] == idLeg) {
+      legIndex = 1;
+    }
+    if(legIndex < 0 ){
+      String resTex;
+      resTex += "groupM:0";
+      resTex += ",legIndex:";
+      resTex += String(legIndex);
+      responseTextTag(resTex);
+      return ;
+    }
+    DUMP_VAR(legIndex);
+    int payload = 0;
+    if(readTagValue(":payload,",":payload,",&payload)) {
+    }
+    int position = -1;
+    if(readTagValue(":xmm,",":xmm,",&position)) {
+      
+      DUMP_VAR(position);
+      int volDist = calcVolumeFromMM(legIndex,position);
+      runWheelVolume(volDist,legIndex,payload);
+      String resTex;
+      resTex += "groupM:1";
+      resTex += ",volDist:";
+      resTex += String(volDist);
+      resTex += ",legIndex:";
+      resTex += String(legIndex);
+      responseTextTag(resTex);
+      return;
+    }
+  }
+  String resTex;
+  resTex += "groupM:0";
   responseTextTag(resTex);
 }
 
