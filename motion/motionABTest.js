@@ -86,6 +86,8 @@ scenario_walk = [
 ]
 
 
+
+
 scenario_back = [
 //   move all leg to front by air.
     [["right"]],
@@ -104,6 +106,28 @@ scenario_back = [
     [["wait",1.0]],
     [["finnish"]],    
 ]
+
+
+
+// walk in 3 step.
+scenario_TEST = [
+    [["infoa"]],
+//   move all leg to front by air.
+    right_front_air,
+    [["wait",1.0]],
+    right_back_air,
+    [["wait",1.0]],
+    left_front_air,
+    [["wait",1.0]],
+    left_back_air,
+    [["wait",1.0]],
+    all_front_air,
+    [["wait",1.0]],
+    all_back_air,
+    [["wait",1.0]],
+    [["finnish"]],
+]
+
 
 let gMotionLoop = 1;
 const onPlayMotion =(motion) => {
@@ -141,14 +165,20 @@ const onNextAction = (motion,index) => {
   }
   if(action[0][0] === 'move') {
     for(let move of action) {
-      trans2serial(gPortArduino,'groupM:id,' + move[1] + ':xmm,' + move[2] + ':payload,' + move[3] + '\r\n');
+      const cmd = 'groupM:id,' + move[1] + ':xmm,' + move[2] + ':payload,' + move[3] + '\r\n';
+      console.log('onNextAction cmd=<',cmd ,'>');      
+      trans2serial(gPortArduino,cmd);
       console.log('onNextAction move=<',move ,'>');      
     }
     onNextAction(motion,indexNext);
   }
+  if(action[0][0] === 'infoa') {
+    trans2serial(gPortArduino,'info:\r\n');
+    onNextAction(motion,indexNext);
+  }
   if(action[0][0] === 'finnish') {
     setTimeout(()=>{
-      onStartMotion(scenario_walk);
+      onStartMotion();
     },1000)
   }
 
@@ -156,7 +186,7 @@ const onNextAction = (motion,index) => {
 
 
 const onStartMotion = () => {
-  onPlayMotion(scenario_walk);
+  onPlayMotion(scenario_TEST);
   /*
   setTimeout(()=> {
     console.log('onStartMotion finnish!!!!>');  

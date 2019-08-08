@@ -460,6 +460,8 @@ void runInfo(void) {
   resTex += String(iEROMPayloadPWMOffset[0]);
   resTex += ":sd0,";
   resTex += String(iEROMStartDelay[0]);
+  resTex += ":group0,";
+  resTex += String(iEROMGroup[0]);
   responseTextContinue(resTex);
   resTex = "";
   resTex += ":pwmGain0,";
@@ -494,6 +496,8 @@ void runInfo(void) {
   resTex += String(iEROMPWMGainEmpty[1]);
   resTex += ":pwmGainPL1,";
   resTex += String(iEROMPWMGainPlayLoad[1]);
+  resTex += ":group1,";
+  resTex += String(iEROMGroup[1]);
   responseTextFinnish(resTex);
 }
 
@@ -541,13 +545,11 @@ void checkOverRunMaxWheel(int index) {
 */
 
 int iPrevVolumeDistanceWheel[2] = {};
-int iConstMoveJudgeDiff = 2;
+int iConstMoveJudgeDiff = 1;
+
+static uint16_t iCheckOverCounter[MAX_MOTOR_CH] = {0,0};
 
 void checkOverRunMaxWheel(int index) {
-  static int counter = 0;
-  if(counter++%5) {
-    return;
-  }
   /*
   if(iEROMPWMLogLevel > 0 ){
     String resTex;
@@ -559,7 +561,10 @@ void checkOverRunMaxWheel(int index) {
   }
   */
   if(abs(iOutPutPWM[index]) > 0) {
-    int delta = abs(iVolumeDistanceWheel[index] - iPrevVolumeDistanceWheel[index]);
+   if(++iCheckOverCounter[index]%4000) {
+    return;
+   }
+   int delta = abs(iVolumeDistanceWheel[index] - iPrevVolumeDistanceWheel[index]);
     /*
     if(iEROMPWMLogLevel > 0 ){
       String resTex;
@@ -575,6 +580,7 @@ void checkOverRunMaxWheel(int index) {
       STOP_WHEEL(index);
       int stopAtPWM = iOutPutPWM[index];
       iOutPutPWM[index] = 0;
+      iCheckOverCounter[index] = 0;
       
       {
         String resTex;
@@ -653,25 +659,42 @@ void moveLegToPosition() {
 
 
 void moveGroupToPosition() {
-  int idLeg = 0;
-  if(readTagValue(":id,",":id,",&idLeg)) {
-    DUMP_VAR(idLeg);
-    int legIndex = -1;
-    if(iEROMLegId[0] == idLeg) {
-      legIndex = 0;
+  String group;
+  if(readTagString(":id,",":id,",&group)) {
+    DUMP_VAR(group);
+    int legIndex1 = -1;
+    int legIndex2 = -1;
+    if(group == "aa") {
+      if(iEROMGroup[0] & 0x1 == 0) {
+        legIndex1 = 0;
+      }
+      if(iEROMGroup[1] & 0x1 == 0) {
+        legIndex1 = 1;
+      }
     }
-    if(iEROMLegId[1] == idLeg) {
-      legIndex = 1;
+    if(group == "bb") {
+      if(iEROMGroup[0] & 0x1 == 1) {
+        legIndex1 = 0;
+      }
+      if(iEROMGroup[1] & 0x1 == 1) {
+        legIndex1 = 1;
+      }
     }
-    if(legIndex < 0 ){
+    if(group == "ab" || group == "ba") {
+      legIndex1 = 0;
+      legIndex2 = 1;
+    }
+    if(legIndex1 < 0 ){
       String resTex;
       resTex += "groupM:0";
-      resTex += ",legIndex:";
-      resTex += String(legIndex);
+      resTex += ",group:";
+      resTex += group;
+      resTex += ",legIndex1:";
+      resTex += String(legIndex1);
       responseTextTag(resTex);
       return ;
     }
-    DUMP_VAR(legIndex);
+    DUMP_VAR(legIndex1);
     int payload = 0;
     if(readTagValue(":payload,",":payload,",&payload)) {
     }
@@ -679,14 +702,24 @@ void moveGroupToPosition() {
     if(readTagValue(":xmm,",":xmm,",&position)) {
       
       DUMP_VAR(position);
-      int volDist = calcVolumeFromMM(legIndex,position);
-      runWheelVolume(volDist,legIndex,payload);
+      int volDist = calcVolumeFromMM(legIndex1,position);
+      runWheelVolume(volDist,legIndex1,payload);
+      if(legIndex2 > 0) {
+        int volDist2 = calcVolumeFromMM(legIndex2,position);
+        runWheelVolume(volDist2,legIndex2,payload);
+      }
       String resTex;
       resTex += "groupM:1";
+      resTex += ",group:";
+      resTex += group;
       resTex += ",volDist:";
       resTex += String(volDist);
-      resTex += ",legIndex:";
-      resTex += String(legIndex);
+      resTex += ",legIndex1:";
+      resTex += String(legIndex1);
+      if(legIndex2 > 0) {
+        resTex += ",legIndex2:";
+        resTex += String(legIndex2);
+      }
       responseTextTag(resTex);
       return;
     }
@@ -736,13 +769,11 @@ void readWheelVolume(int index) {
   //DUMP_VAR(volume);
   //bool iReport = true;
   if(iReport) {
-    if(iEROMPWMLogLevel > 0 ) {
-      iVolumeDistanceWheelReported[index] = volume;
-      String resTex;
-      resTex += strConstWheelReportTag[index];
-      resTex += String(volume);
-      responseTextTag(resTex);
-    }
+    iVolumeDistanceWheelReported[index] = volume;
+    String resTex;
+    resTex += strConstWheelReportTag[index];
+    resTex += String(volume);
+    responseTextTag(resTex);
   }
   iVolumeDistanceWheel[index] = volume;
 }

@@ -77,7 +77,7 @@ const openSerial = (portName,stm) => {
 */
     let nl = dataBuffer.search('\r\n');
     if(nl > -1) {
-      console.log('dataBuffer=<',dataBuffer ,'>');
+      console.log('[R]::dataBuffer=<',dataBuffer ,'>');
       dataBuffer = '';
     }
   });
@@ -92,7 +92,7 @@ const trans2serial = (port,msg) => {
     if (err) {
       return console.log('Error on write: ', err.message);
     }
-    console.log('trans2serial msg=<', msg,'>');
+    console.log('[S]trans2serial msg=<', msg,'>');
     console.log('trans2serial port.path=<', port.path,'>');
   });
 }

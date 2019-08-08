@@ -63,6 +63,8 @@ void loop() {
     //runSerialCommand();
   }
 
+  /*
+
   if (Serial1.available()) {     // If anything comes in Serial1 (pins 0 & 1)
     char incomming = Serial1.read();
     Serial.write(incomming);
@@ -97,6 +99,7 @@ void loop() {
     }
   }
   //Serial.print("\r\n");
+  */
 }
 
 static String gSerialInputCommand = "";

@@ -75,6 +75,14 @@ onLegInfo = (info) => {
     channelInfo.startdelay = info.sd0;
     channelInfo.pwmGain = info.pwmGain0;
     channelInfo.pwmGainPL = info.pwmGainPL0;
+    channelInfo.group = '';
+    if(info.group0) {
+      if(info.group0 & 0x01) {
+        channelInfo.group = 'b';
+      } else {
+        channelInfo.group = 'a';
+      }
+    }
     channelInfo.log = info.lv
     //console.log('onLegInfo channelInfo=<', channelInfo,'>');
     if(typeof onVueUILegInfo === 'function') {
@@ -94,6 +102,14 @@ onLegInfo = (info) => {
     channelInfo.startdelay = info.sd1;
     channelInfo.pwmGain = info.pwmGain1;
     channelInfo.pwmGainPL = info.pwmGainPL1;
+    channelInfo.group = '';
+    if(info.group1) {
+      if(info.group1& 0x01) {
+        channelInfo.group = 'b';
+      } else {
+        channelInfo.group = 'a';
+      }
+    }
     channelInfo.log = info.lv
     //console.log('onLegInfo channelInfo=<', channelInfo,'>');
     if(typeof onVueUILegInfo === 'function') {
@@ -458,5 +474,34 @@ function onUIChangeLogLevel(elem) {
     let log = 'setting:log,'+ limit + '\n';
     console.log('onUIChangeLogLevel log=<', log,'>');
     ws.send(log);
+  }
+}
+
+
+function getInputUIToolText(elem) {
+  let inputElem = elem.parentElement.parentElement.getElementsByTagName('input')[0];
+  console.log('getInputUITool inputElem=<', inputElem,'>');
+  return inputElem.value.trim();
+}
+
+function onUIChangeGroup(elem) {
+  console.log('onUIChangeGroup elem=<', elem,'>');
+  let value = getInputUIToolText(elem);
+  console.log('onUIChangeGroup value=<', value,'>');
+  let valueInt = 0;
+  if(value === 'a') {
+    valueInt = 0x00;
+  } else if(value === 'b') {
+    valueInt = 0x01
+  } else {
+    alert('only a b')
+    return;
+  }
+  let channel = getChannelUITool(elem);
+  console.log('onUIChangeGroup channel=<', channel,'>');
+  if(!isNaN(channel) && !isNaN(valueInt)) {
+    let group = 'setting:group' + channel + ',' + valueInt + '\n';
+    console.log('onUIChangeGroup group=<', group,'>');
+    ws.send(group);
   }
 }
