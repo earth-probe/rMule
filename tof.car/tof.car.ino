@@ -1,5 +1,7 @@
 #include <EEPROM.h>
-
+#include <VL53L0X.h>
+#include <Wire.h>
+VL53L0X sensor;
 uint8_t iEROMPWMLogLevel = 0; 
 
 #define DUMP_VAR(x)  { \
@@ -63,8 +65,7 @@ void setup()
 
   Serial.begin(115200);
   loadEROM();
-
-  
+  setupTof();
 }
 
 void pin_motor_setup(int index) {
@@ -72,8 +73,43 @@ void pin_motor_setup(int index) {
   pinMode(MOTER_FGS_WHEEL[index], INPUT_PULLUP);
   pinMode(MOTER_PWM_WHEEL[index], OUTPUT);
   pinMode(MOTER_VOLUME_WHEEL[index], INPUT_PULLUP);
-  analogWrite(MOTER_PWM_WHEEL[index], 0);
+  analogWrite(MOTER_PWM_WHEEL[index], 0xff);
 }
+
+
+#define TOF_HIGH_SPEED
+//#define TOF_HIGH_ACCURACY
+
+const int TOF_TIME_OUT = 1;
+
+void setupTof() {
+  Wire.begin();
+  sensor.init();
+  sensor.setTimeout(TOF_TIME_OUT);
+  sensor.setSignalRateLimit(0.5);
+  int limit_Mcps = sensor.getSignalRateLimit();
+  DUMP_VAR(limit_Mcps);
+/*
+#if defined LONG_RANGE
+  // lower the return signal rate limit (default is 0.25 MCPS)
+  sensor.setSignalRateLimit(0.1);
+  // increase laser pulse periods (defaults are 14 and 10 PCLKs)
+  sensor.setVcselPulsePeriod(VL53L0X::VcselPeriodPreRange, 18);
+  sensor.setVcselPulsePeriod(VL53L0X::VcselPeriodFinalRange, 14);
+#endif
+*/
+
+#if defined TOF_HIGH_SPEED
+  // reduce timing budget to 1 ms (default is about 33 ms)
+  sensor.setMeasurementTimingBudget(20L*1000L);
+#elif defined TOF_HIGH_ACCURACY
+  // increase timing budget to 200 ms
+  sensor.setMeasurementTimingBudget(200L*1000L);
+#endif
+}
+
+
+
 
 
 void checkOverRunMax(void);
@@ -86,6 +122,7 @@ void loop() {
   calcWheelTarget(0);
   calcWheelTarget(1);
   checkOverRunMax();
+  readTof();
 }
 
 
@@ -307,8 +344,8 @@ static long const iRunTimeoutCounter = 10000L * 10L;
   digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
 }
 #define STOP_WHEEL(index) {\
-  speed_wheel[index] = 0x0;\
-  analogWrite(MOTER_PWM_WHEEL[index], 0x0);\
+  speed_wheel[index] = 0xff;\
+  analogWrite(MOTER_PWM_WHEEL[index], 0xff);\
 }
 
 
@@ -746,6 +783,28 @@ int calcVolumeFromMM(int index,int mm) {
 void getLegPosition() {
 }
 
+
+int iDistanceTofReportCounter = 1;
+const int iDistanceTofReportSkip = 50;
+int iDistanceWheelTof = 0;
+
+void readTof() {
+  int distance = sensor.readRangeSingleMillimeters();
+  //DUMP_VAR(distance);
+  if(distance <= 0 || distance >= 8191) {
+    return ;
+  }
+  bool isReport = (iDistanceTofReportCounter++%iDistanceTofReportSkip) == 0;
+  //DUMP_VAR(isReport);
+  if(isReport) {
+    String resTex;
+    resTex += "tof:distance,";
+    resTex += String(distance);
+    responseTextTag(resTex);
+  }
+  iDistanceWheelTof = distance;
+}
+
 int const iTargetDistanceMaxDiff = 1;
 
 
@@ -757,6 +816,8 @@ const int iConstVolumeDistanceWheelReportDiffBigRange = 10;
 int iVolumeDistanceWheelReported[MAX_MOTOR_CH] = {0,0};
 
 const String strConstWheelReportTag[MAX_MOTOR_CH] = {"wheel:vol0,","wheel:vol1,"};
+
+
 
 
 void readWheelVolume(int index) {
