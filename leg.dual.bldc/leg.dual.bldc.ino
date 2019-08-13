@@ -86,6 +86,7 @@ void loop() {
   calcWheelTarget(0);
   calcWheelTarget(1);
   checkOverRunMax();
+  loopSpeedTest();
 }
 
 
@@ -298,7 +299,7 @@ void B_Motor_FGS_By_Interrupt(void) {
 
 unsigned char speed_wheel[MAX_MOTOR_CH] = {0,0};
 static long wheelRunCounter[MAX_MOTOR_CH] = {-1,-1};
-static long const iRunTimeoutCounter = 10000L * 10L;
+static long const iRunTimeoutCounter = 100L*1000L;
 
 #define FRONT_WHEEL(index) { \
   digitalWrite(MOTER_CCW_WHEEL[index], LOW);\
@@ -531,18 +532,7 @@ void readStatus() {
 
 bool bIsRunWheelByVolume[MAX_MOTOR_CH] = {false,false};
 
-/*
-void checkOverRunMaxWheel(int index) {
-  if(iVolumeDistanceWheel[index] > iEROMWheelMaxBack[index]) {
-    bIsRunWheelByVolume[index] = false;
-    STOP_WHEEL(index);
-  }
-  if(iVolumeDistanceWheel[index] < iEROMWheelMaxFront[index]) {
-    bIsRunWheelByVolume[index] = false;
-    STOP_WHEEL(index);
-  }  
-}
-*/
+
 
 int iPrevVolumeDistanceWheel[2] = {};
 int iConstMoveJudgeDiff = 1;
@@ -550,31 +540,11 @@ int iConstMoveJudgeDiff = 1;
 static uint16_t iCheckOverCounter[MAX_MOTOR_CH] = {0,0};
 
 void checkOverRunMaxWheel(int index) {
-  /*
-  if(iEROMPWMLogLevel > 0 ){
-    String resTex;
-    resTex += "dummy:iOutPutPWM,";
-    resTex += String(iOutPutPWM[index]);
-    resTex += ":counter,";
-    resTex += String(counter);
-    responseTextTag(resTex);
-  }
-  */
   if(abs(iOutPutPWM[index]) > 0) {
-   if(++iCheckOverCounter[index]%4000) {
+   if(++iCheckOverCounter[index]%3000) {
     return;
    }
    int delta = abs(iVolumeDistanceWheel[index] - iPrevVolumeDistanceWheel[index]);
-    /*
-    if(iEROMPWMLogLevel > 0 ){
-      String resTex;
-      resTex += "dummy:iOutPutPWM,";
-      resTex += String(iOutPutPWM[index]);
-      resTex += ":delta,";
-      resTex += String(delta);
-      responseTextTag(resTex);
-    }
-    */
     if(delta < iConstMoveJudgeDiff) {
       bIsRunWheelByVolume[index] = false;
       STOP_WHEEL(index);
@@ -984,3 +954,20 @@ void runGPIO(void) {
     }
   }
 }
+
+
+#if 0
+static uint32_t iConstSpeedCounterMax = 100;
+void loopSpeedTest() {
+  static uint32_t speedCounter = 0;
+  if(speedCounter++ > iConstSpeedCounterMax) {
+      String resTex;
+      resTex += "dummy:speed";
+      responseTextTag(resTex);
+      speedCounter = 0;
+  }
+}
+#else
+void loopSpeedTest() {
+}
+#endif
