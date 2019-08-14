@@ -2,10 +2,10 @@
 #include <VL53L0X.h>
 #include <Wire.h>
 VL53L0X sensor;
-uint8_t iEROMPWMLogLevel = 0; 
+uint8_t iEROMLogLevel = 0; 
 
 #define DUMP_VAR(x)  { \
-  if(iEROMPWMLogLevel > 0 ) { \
+  if(iEROMLogLevel > 0 ) { \
     Serial.print(__LINE__);\
     Serial.print("@@"#x"=<");\
     Serial.print(x);\
@@ -43,7 +43,6 @@ uint8_t iEROMPWMLogLevel = 0;
 const static char MOTER_FGS_WHEEL[MAX_MOTOR_CH] = {2,3};
 const static char MOTER_PWM_WHEEL[MAX_MOTOR_CH] = {9,10};
 const static char MOTER_CCW_WHEEL[MAX_MOTOR_CH] = {4,8};
-const static char MOTER_VOLUME_WHEEL[MAX_MOTOR_CH] = {A1,A2};
 
 
 void A_Motor_FGS_By_Interrupt(void);
@@ -72,7 +71,6 @@ void pin_motor_setup(int index) {
   pinMode(MOTER_CCW_WHEEL[index], OUTPUT);
   pinMode(MOTER_FGS_WHEEL[index], INPUT_PULLUP);
   pinMode(MOTER_PWM_WHEEL[index], OUTPUT);
-  pinMode(MOTER_VOLUME_WHEEL[index], INPUT_PULLUP);
   analogWrite(MOTER_PWM_WHEEL[index], 0xff);
 }
 
@@ -89,7 +87,7 @@ void setupTof() {
   sensor.setSignalRateLimit(0.5);
   int limit_Mcps = sensor.getSignalRateLimit();
   DUMP_VAR(limit_Mcps);
-/*
+
 #if defined LONG_RANGE
   // lower the return signal rate limit (default is 0.25 MCPS)
   sensor.setSignalRateLimit(0.1);
@@ -97,7 +95,7 @@ void setupTof() {
   sensor.setVcselPulsePeriod(VL53L0X::VcselPeriodPreRange, 18);
   sensor.setVcselPulsePeriod(VL53L0X::VcselPeriodFinalRange, 14);
 #endif
-*/
+
 
 #if defined TOF_HIGH_SPEED
   // reduce timing budget to 1 ms (default is about 33 ms)
@@ -114,55 +112,36 @@ void setupTof() {
 
 void checkOverRunMax(void);
 void runSerialCommand(void);
-void readStatus(void);
-void calcWheelTarget(int index);
 void loop() {
-  runSerialCommand();
-  readStatus();
-  calcWheelTarget(0);
-  calcWheelTarget(1);
-  checkOverRunMax();
   readTof();
+  runSerialCommand();
+  checkOverRunMax();
 }
 
 
 
 
 const int  iEROMLegIdAddress[MAX_MOTOR_CH] = {0,2};
-const int  iEROMWheelMaxBackAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 2,iEROMLegIdAddress[1] + 4}; 
-const int  iEROMWheelMaxFrontAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 6,iEROMLegIdAddress[1] + 8}; 
-const int  iEROMCWDirectAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 10,iEROMLegIdAddress[1] + 12}; 
-const int  iEROMPWMOffsetAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 14,iEROMLegIdAddress[1] + 16};
-const int  iEROMZeroPositionAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 18,iEROMLegIdAddress[1] + 20};
-const int  iEROMPayloadPWMOffsetAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 22,iEROMLegIdAddress[1] + 24};
-const int  iEROMStartDelayAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 26,iEROMLegIdAddress[1] + 28};
-const int  iEROMPWMGainEmptyAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 30,iEROMLegIdAddress[1] + 32};
-const int  iEROMPWMGainPlayLoadAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 34,iEROMLegIdAddress[1] + 36};
 const int  iEROMGroupAddress[MAX_MOTOR_CH] = {iEROMLegIdAddress[1] + 38,iEROMLegIdAddress[1] + 40};
-const int  iEROMPWMLogLevelAddress = iEROMLegIdAddress[1] + 256;
-
+const int  iEROMLogLevelAddress = iEROMLegIdAddress[1] + 256;
+const int  iEROMTofRangeMaxAddress = iEROMLegIdAddress[1] + 258;
+const int  iEROMTofRangeMinAddress = iEROMLegIdAddress[1] + 260;
 
 uint16_t  iEROMLegId[MAX_MOTOR_CH] = {0,0};
-uint16_t  iEROMWheelMaxBack[MAX_MOTOR_CH] = {280,280}; 
-uint16_t  iEROMWheelMaxFront[MAX_MOTOR_CH] = {420,420}; 
-uint16_t  iEROMCWDirect[MAX_MOTOR_CH] = {1,0}; 
-uint16_t  iEROMZeroPosition[MAX_MOTOR_CH] = {0,0};
-uint16_t  iEROMStartDelay[MAX_MOTOR_CH] = {0,0};
-
-int16_t  iEROMPWMOffset[MAX_MOTOR_CH] = {0,0};
-int16_t  iEROMPayloadPWMOffset[MAX_MOTOR_CH] = {0,0};
-
-uint16_t  iEROMPWMGainEmpty[MAX_MOTOR_CH] = {4*100,4*100};
-uint16_t  iEROMPWMGainPlayLoad[MAX_MOTOR_CH] = {6*100,6*100};
-uint16_t  iEROMGroup[MAX_MOTOR_CH] = {0x0,0x0};
-
-bool bZeroPositionNearSmall[MAX_MOTOR_CH] = {false,false};
+uint16_t  iEROMTofRangeMax = 0;
+uint16_t  iEROMTofRangeMin = 0;
 
 
 
 void loadEROM1Byte(int address,uint8_t *dst) {
   uint8_t value1 = EEPROM.read(address);
   *dst = value1;
+}
+
+void loadEROM2ByteSingle(int address,uint16_t *dst) {
+  uint16_t value1 = EEPROM.read(address);
+  uint16_t value2 = EEPROM.read(address);
+  *dst = value1 | value2 << 8;;
 }
 
 void loadEROM2Byte(int index,int address[],uint16_t dst[]) {
@@ -189,63 +168,11 @@ void loadEROMFloat(int index,int address[],float dst[]) {
 
 
 void loadEROM(void) {
-  loadEROM1Byte(iEROMPWMLogLevelAddress,&iEROMPWMLogLevel);
-  
+  loadEROM1Byte(iEROMLogLevelAddress,&iEROMLogLevel);
   loadEROM2Byte(0,iEROMLegIdAddress,iEROMLegId);
   loadEROM2Byte(1,iEROMLegIdAddress,iEROMLegId);
-  
-  loadEROM2Byte(0,iEROMWheelMaxBackAddress,iEROMWheelMaxBack);
-  loadEROM2Byte(1,iEROMWheelMaxBackAddress,iEROMWheelMaxBack);
-  loadEROM2Byte(0,iEROMWheelMaxFrontAddress,iEROMWheelMaxFront);
-  loadEROM2Byte(1,iEROMWheelMaxFrontAddress,iEROMWheelMaxFront);
-  
-  loadEROM2Byte(0,iEROMCWDirectAddress,iEROMCWDirect);
-  loadEROM2Byte(1,iEROMCWDirectAddress,iEROMCWDirect);
- 
-  
-  loadEROM2ByteSign(0,iEROMPWMOffsetAddress,iEROMPWMOffset);
-  loadEROM2ByteSign(1,iEROMPWMOffsetAddress,iEROMPWMOffset);
-
-  loadEROM2Byte(0,iEROMZeroPositionAddress,iEROMZeroPosition);
-  loadEROM2Byte(1,iEROMZeroPositionAddress,iEROMZeroPosition);
-
-  loadEROM2ByteSign(0,iEROMPayloadPWMOffsetAddress,iEROMPayloadPWMOffset);
-  loadEROM2ByteSign(1,iEROMPayloadPWMOffsetAddress,iEROMPayloadPWMOffset);
-
-  loadEROM2Byte(0,iEROMStartDelayAddress,iEROMStartDelay);
-  loadEROM2Byte(1,iEROMStartDelayAddress,iEROMStartDelay);
-
-  loadEROM2Byte(0,iEROMPWMGainEmptyAddress,iEROMPWMGainEmpty);
-  loadEROM2Byte(1,iEROMPWMGainEmptyAddress,iEROMPWMGainEmpty);
-
-  loadEROM2Byte(0,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad);
-  loadEROM2Byte(1,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad);
-
-  loadEROM2Byte(0,iEROMGroupAddress,iEROMGroup);
-  loadEROM2Byte(1,iEROMGroupAddress,iEROMGroup);
-
-  //DUMP_VAR(iEROMWheelMaxFront[0]);
-  //DUMP_VAR(iEROMZeroPosition[0]);
-  //DUMP_VAR(iEROMWheelMaxBack[0]);
-  
-  //int16_t mfDist0 = (int16_t)iEROMWheelMaxFront[0] - (int16_t)iEROMZeroPosition[0];
-  //int16_t mbDist0 = (int16_t)iEROMWheelMaxBack[0] - (int16_t)iEROMZeroPosition[0];
-  //DUMP_VAR(mfDist0);
-  //DUMP_VAR(mbDist0);
-  bZeroPositionNearSmall[0] = (2*iEROMZeroPosition[0] <= iEROMWheelMaxFront[0] + iEROMWheelMaxBack[0]);
-
-
-  //DUMP_VAR(iEROMWheelMaxFront[0]);
-  //DUMP_VAR(iEROMZeroPosition[0]);
-  //DUMP_VAR(iEROMWheelMaxBack[0]);
-
-
-  //int16_t mfDist1 = (int16_t)iEROMWheelMaxFront[1]- (int16_t)iEROMZeroPosition[1];
-  //int16_t mbDist1 = (int16_t)iEROMWheelMaxBack[1] - (int16_t)iEROMZeroPosition[1];
-  //DUMP_VAR(mfDist1);
-  //DUMP_VAR(mbDist1);
-  bZeroPositionNearSmall[1] = (2*iEROMZeroPosition[1] <= iEROMWheelMaxFront[1] + iEROMWheelMaxBack[1]);
-
+  loadEROM2ByteSingle(iEROMTofRangeMaxAddress,&iEROMTofRangeMax);
+  loadEROM2ByteSingle(iEROMTofRangeMinAddress,&iEROMTofRangeMin);
 }
 
 
@@ -272,6 +199,13 @@ void saveEROM2Byte(int index,int address[],uint16_t valueRam[],String tag) {
   }
 }
 
+void saveEROM2ByteSingle(int address,uint16_t valueRam,String tag) {
+  int valueTag = 0;
+  if(readTagValue(tag,"",&valueTag)) {
+    saveEROM(address,valueTag);
+    valueRam =  valueTag;
+  }
+}
 
 
 void saveEROM2ByteSign(int index,int address[],int16_t valueRam[],String tag) {
@@ -284,43 +218,14 @@ void saveEROM2ByteSign(int index,int address[],int16_t valueRam[],String tag) {
 }
 
 void runSetting(void) {
-  saveEROM1Byte(iEROMPWMLogLevelAddress,&iEROMPWMLogLevel,":debug,");
-  saveEROM1Byte(iEROMPWMLogLevelAddress,&iEROMPWMLogLevel,":log,");
+  saveEROM1Byte(iEROMLogLevelAddress,&iEROMLogLevel,":debug,");
+  saveEROM1Byte(iEROMLogLevelAddress,&iEROMLogLevel,":log,");
 
   saveEROM2Byte(0,iEROMLegIdAddress,iEROMLegId,":id0,");
   saveEROM2Byte(1,iEROMLegIdAddress,iEROMLegId,":id1,");
 
-  saveEROM2Byte(0,iEROMWheelMaxFrontAddress,iEROMWheelMaxFront,":mf0,");
-  saveEROM2Byte(1,iEROMWheelMaxFrontAddress,iEROMWheelMaxFront,":mf1,");
-  saveEROM2Byte(0,iEROMWheelMaxBackAddress,iEROMWheelMaxBack,":mb0,");
-  saveEROM2Byte(1,iEROMWheelMaxBackAddress,iEROMWheelMaxBack,":mb1,");
-
-
-  saveEROM2Byte(0,iEROMCWDirectAddress,iEROMCWDirect,":cw0,");
-  saveEROM2Byte(1,iEROMCWDirectAddress,iEROMCWDirect,":cw1,");
-  
-  saveEROM2ByteSign(0,iEROMPWMOffsetAddress,iEROMPWMOffset,":pwm0,");
-  saveEROM2ByteSign(1,iEROMPWMOffsetAddress,iEROMPWMOffset,":pwm1,");
-
-  saveEROM2Byte(0,iEROMZeroPositionAddress,iEROMZeroPosition,":zeroP0,");
-  saveEROM2Byte(1,iEROMZeroPositionAddress,iEROMZeroPosition,":zeroP1,");
-
-  saveEROM2ByteSign(0,iEROMPayloadPWMOffsetAddress,iEROMPayloadPWMOffset,":payloadpwm0,");
-  saveEROM2ByteSign(1,iEROMPayloadPWMOffsetAddress,iEROMPayloadPWMOffset,":payloadpwm1,");
-
-  saveEROM2Byte(0,iEROMStartDelayAddress,iEROMStartDelay,":startdelay0,");
-  saveEROM2Byte(1,iEROMStartDelayAddress,iEROMStartDelay,":startdelay1,");
-
-
-  saveEROM2Byte(0,iEROMPWMGainEmptyAddress,iEROMPWMGainEmpty,":pwmGain0,");
-  saveEROM2Byte(1,iEROMPWMGainEmptyAddress,iEROMPWMGainEmpty,":pwmGain1,");
-
-  saveEROM2Byte(0,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad,":pwmGainPL0,");
-  saveEROM2Byte(1,iEROMPWMGainPlayLoadAddress,iEROMPWMGainPlayLoad,":pwmGainPL1,");
-
-  saveEROM2Byte(0,iEROMGroupAddress,iEROMGroup,":group0,");
-  saveEROM2Byte(1,iEROMGroupAddress,iEROMGroup,":group1,");
-
+  saveEROM2ByteSingle(iEROMTofRangeMaxAddress,iEROMTofRangeMax,":tofmax,");
+  saveEROM2ByteSingle(iEROMTofRangeMinAddress,iEROMTofRangeMin,":tofmin,");
 }
 
 
@@ -338,10 +243,18 @@ static long wheelRunCounter[MAX_MOTOR_CH] = {-1,-1};
 static long const iRunTimeoutCounter = 10000L * 10L;
 
 #define FRONT_WHEEL(index) { \
-  digitalWrite(MOTER_CCW_WHEEL[index], LOW);\
+  if(index == 0) {\
+    digitalWrite(MOTER_CCW_WHEEL[index], LOW);\
+  } else {\
+    digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
+  }\
 }
 #define BACK_WHEEL(index) { \
-  digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
+  if(index == 0) {\
+    digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
+  } else {\
+    digitalWrite(MOTER_CCW_WHEEL[index], LOW);\
+  }\
 }
 #define STOP_WHEEL(index) {\
   speed_wheel[index] = 0xff;\
@@ -459,15 +372,6 @@ void run_comand(void) {
   if(gSerialInputCommand.startsWith("who:") || gSerialInputCommand.startsWith("H:")) {
     whois();
   }
-  if(gSerialInputCommand.startsWith("legM:") || gSerialInputCommand.startsWith("M:")) {
-    moveLegToPosition();
-  }
-  if(gSerialInputCommand.startsWith("legG:") || gSerialInputCommand.startsWith("P:")) {
-    getLegPosition();
-  }
-  if(gSerialInputCommand.startsWith("groupM:") || gSerialInputCommand.startsWith("C:")) {
-    moveGroupToPosition();
-  }
 }
 void runInfo(void) {
   String resTex;
@@ -479,62 +383,6 @@ void runInfo(void) {
   resTex += String(iEROMLegId[0]);      
   resTex += ":id1,";
   resTex += String(iEROMLegId[1]);      
-  resTex += ":mb0,";
-  resTex += String(iEROMWheelMaxBack[0]);      
-  resTex += ":mf0,";
-  resTex += String(iEROMWheelMaxFront[0]);
-  resTex += ":wp0,";
-  resTex += String(iVolumeDistanceWheel[0]);
-  resTex += ":cw0,";
-  resTex += String(iEROMCWDirect[0]);
-  resTex += ":pw0,";
-  resTex += String(iEROMPWMOffset[0]);
-  resTex += ":zp0,";
-  resTex += String(iEROMZeroPosition[0]);
-  resTex += ":ns0,";
-  resTex += String(bZeroPositionNearSmall[0]);
-  resTex += ":pl0,";
-  resTex += String(iEROMPayloadPWMOffset[0]);
-  resTex += ":sd0,";
-  resTex += String(iEROMStartDelay[0]);
-  resTex += ":group0,";
-  resTex += String(iEROMGroup[0]);
-  responseTextContinue(resTex);
-  resTex = "";
-  resTex += ":pwmGain0,";
-  resTex += String(iEROMPWMGainEmpty[0]);
-  resTex += ":pwmGainPL0,";
-  resTex += String(iEROMPWMGainPlayLoad[0]);
-  responseTextContinue(resTex);
-  resTex = "";
-  resTex += ":mb1,";
-  resTex += String(iEROMWheelMaxBack[1]);      
-  resTex += ":mf1,";
-  resTex += String(iEROMWheelMaxFront[1]);
-  resTex += ":wp1,";
-  resTex += String(iVolumeDistanceWheel[1]);
-  resTex += ":cw1,";
-  resTex += String(iEROMCWDirect[1]);
-  resTex += ":pw1,";
-  resTex += String(iEROMPWMOffset[1]);
-  resTex += ":zp1,";
-  resTex += String(iEROMZeroPosition[1]);
-  resTex += ":ns1,";
-  resTex += String(bZeroPositionNearSmall[1]);
-  resTex += ":pl1,";
-  resTex += String(iEROMPayloadPWMOffset[1]);
-  resTex += ":sd1,";
-  resTex += String(iEROMStartDelay[1]);
-  resTex += ":lv,";
-  responseTextContinue(resTex);
-  resTex = "";
-  resTex += String(iEROMPWMLogLevel);
-  resTex += ":pwmGain1,";
-  resTex += String(iEROMPWMGainEmpty[1]);
-  resTex += ":pwmGainPL1,";
-  resTex += String(iEROMPWMGainPlayLoad[1]);
-  resTex += ":group1,";
-  resTex += String(iEROMGroup[1]);
   responseTextFinnish(resTex);
 }
 
@@ -551,20 +399,14 @@ void runWheelByTag(void) {
   int volDistA = 0;
   if(readTagValue(":v0,",":vol0,",&volDistA)) {
     DUMP_VAR(volDistA);
-    runWheelVolume(volDistA,0,0);
   }
   int volDistB = 0;
   if(readTagValue(":v1,",":vol1,",&volDistB)) {
     DUMP_VAR(volDistB);
-    runWheelVolume(volDistB,1,0);
   }
 }
 
 
-void readStatus() {
-  readWheelVolume(0);
-  readWheelVolume(1);
-}
 
 bool bIsRunWheelByVolume[MAX_MOTOR_CH] = {false,false};
 
@@ -650,143 +492,15 @@ void checkOverRunMax(void) {
   checkOverRunMaxWheel(1);
 }
 
-void moveLegToPosition() {
-  int idLeg = 0;
-  if(readTagValue(":id,",":id,",&idLeg)) {
-    DUMP_VAR(idLeg);
-    int legIndex = -1;
-    if(iEROMLegId[0] == idLeg) {
-      legIndex = 0;
-    }
-    if(iEROMLegId[1] == idLeg) {
-      legIndex = 1;
-    }
-    if(legIndex < 0 ){
-      String resTex;
-      resTex += "legM:0";
-      resTex += ",legIndex:";
-      resTex += String(legIndex);
-      responseTextTag(resTex);
-      return ;
-    }
-    DUMP_VAR(legIndex);
-    int payload = 0;
-    if(readTagValue(":payload,",":payload,",&payload)) {
-    }
-    int position = -1;
-    if(readTagValue(":xmm,",":xmm,",&position)) {
-      
-      DUMP_VAR(position);
-      int volDist = calcVolumeFromMM(legIndex,position);
-      runWheelVolume(volDist,legIndex,payload);
-      String resTex;
-      resTex += "legM:1";
-      resTex += ",volDist:";
-      resTex += String(volDist);
-      resTex += ",legIndex:";
-      resTex += String(legIndex);
-      responseTextTag(resTex);
-      return;
-    }
-  }
-  String resTex;
-  resTex += "legM:0";
-  responseTextTag(resTex);
-}
 
 
-void moveGroupToPosition() {
-  String group;
-  if(readTagString(":id,",":id,",&group)) {
-    DUMP_VAR(group);
-    int legIndex1 = -1;
-    int legIndex2 = -1;
-    if(group == "aa") {
-      if(iEROMGroup[0] & 0x1 == 0) {
-        legIndex1 = 0;
-      }
-      if(iEROMGroup[1] & 0x1 == 0) {
-        legIndex1 = 1;
-      }
-    }
-    if(group == "bb") {
-      if(iEROMGroup[0] & 0x1 == 1) {
-        legIndex1 = 0;
-      }
-      if(iEROMGroup[1] & 0x1 == 1) {
-        legIndex1 = 1;
-      }
-    }
-    if(group == "ab" || group == "ba") {
-      legIndex1 = 0;
-      legIndex2 = 1;
-    }
-    if(legIndex1 < 0 ){
-      String resTex;
-      resTex += "groupM:0";
-      resTex += ",group:";
-      resTex += group;
-      resTex += ",legIndex1:";
-      resTex += String(legIndex1);
-      responseTextTag(resTex);
-      return ;
-    }
-    DUMP_VAR(legIndex1);
-    int payload = 0;
-    if(readTagValue(":payload,",":payload,",&payload)) {
-    }
-    int position = -1;
-    if(readTagValue(":xmm,",":xmm,",&position)) {
-      
-      DUMP_VAR(position);
-      int volDist = calcVolumeFromMM(legIndex1,position);
-      runWheelVolume(volDist,legIndex1,payload);
-      if(legIndex2 > 0) {
-        int volDist2 = calcVolumeFromMM(legIndex2,position);
-        runWheelVolume(volDist2,legIndex2,payload);
-      }
-      String resTex;
-      resTex += "groupM:1";
-      resTex += ",group:";
-      resTex += group;
-      resTex += ",volDist:";
-      resTex += String(volDist);
-      resTex += ",legIndex1:";
-      resTex += String(legIndex1);
-      if(legIndex2 > 0) {
-        resTex += ",legIndex2:";
-        resTex += String(legIndex2);
-      }
-      responseTextTag(resTex);
-      return;
-    }
-  }
-  String resTex;
-  resTex += "groupM:0";
-  responseTextTag(resTex);
-}
 
 
-const float fMM2VolumeFactor = 0.98;
-int calcVolumeFromMM(int index,int mm) {
-  int zeroP = iEROMZeroPosition[index];
-  int moveInVolume = 0;
-  if(bZeroPositionNearSmall[index]) {
-    moveInVolume = fMM2VolumeFactor * (float)mm;
-  } else {
-    moveInVolume = 0 - fMM2VolumeFactor * (float)mm;
-  }
-  int volume =  moveInVolume + zeroP;
-  return volume;
-}
-
-void getLegPosition() {
-}
 
 
 int iDistanceTofReportCounter = 1;
 const int iDistanceTofReportSkip = 50;
-int iDistanceWheelTof = 0;
+int iDistanceTof = 0;
 
 void readTof() {
   int distance = sensor.readRangeSingleMillimeters();
@@ -802,160 +516,12 @@ void readTof() {
     resTex += String(distance);
     responseTextTag(resTex);
   }
-  iDistanceWheelTof = distance;
-}
-
-int const iTargetDistanceMaxDiff = 1;
-
-
-
-
-const int iConstVolumeDistanceWheelReportDiff = 2;
-const int iConstVolumeDistanceWheelReportDiffBigRange = 10;
-
-int iVolumeDistanceWheelReported[MAX_MOTOR_CH] = {0,0};
-
-const String strConstWheelReportTag[MAX_MOTOR_CH] = {"wheel:vol0,","wheel:vol1,"};
-
-
-
-
-void readWheelVolume(int index) {
-  int volume = analogRead(MOTER_VOLUME_WHEEL[index]);  
-  bool iReport = abs(volume - iVolumeDistanceWheelReported[index]) > iConstVolumeDistanceWheelReportDiff;
-  if(volume > 1000) {
-    iReport = abs(volume - iVolumeDistanceWheelReported[index]) > iConstVolumeDistanceWheelReportDiffBigRange;
-  }
-  //DUMP_VAR(abs(volume - iVolumeDistanceWheelReported[index]));
-  //DUMP_VAR(volume);
-  //bool iReport = true;
-  if(iReport) {
-    iVolumeDistanceWheelReported[index] = volume;
-    String resTex;
-    resTex += strConstWheelReportTag[index];
-    resTex += String(volume);
-    responseTextTag(resTex);
-  }
-  iVolumeDistanceWheel[index] = volume;
-}
-
-
-const uint16_t iConstStarSpeed = 254;
-
-int iTargetVolumePostionWheel[MAX_MOTOR_CH] = {0,0};
-int iTargetVolumePayload[MAX_MOTOR_CH] = {0,0};
-int iTargetVolumeStartDelay[MAX_MOTOR_CH] = {0,0};
-void runWheelVolume(int distPostion,int index,int payload) {
-  /*
-  {
-    String resTex;
-    resTex += "dummy:distPostion,";
-    resTex += String(distPostion);
-    resTex += ":index,";
-    resTex += String(index);
-    resTex += ":iEROMWheelMaxBack,";
-    resTex += String(iEROMWheelMaxBack[index]);
-    resTex += ":iEROMWheelMaxFront,";
-    resTex += String(iEROMWheelMaxFront[index]);
-    responseTextTag(resTex);
-  }
-  */
-  if(distPostion > iEROMWheelMaxBack[index] || distPostion < iEROMWheelMaxFront[index]) {
-    //DUMP_VAR(distPostion);
-    //DUMP_VAR(iEROMWheelMaxBack[index]);
-    //DUMP_VAR(iEROMWheelMaxFront[index]);
-    return;
-  }
-  iTargetVolumePostionWheel[index] = distPostion;
-  bIsRunWheelByVolume[index] = true;
-  wheelRunCounter[index] = iRunTimeoutCounter;
-
-  
-  int moveDiff = iTargetVolumePostionWheel[index] - iVolumeDistanceWheel[index];
-  bool bForwardRunWheel;
-  if(moveDiff > 0) {
-    bForwardRunWheel = iEROMCWDirect[index];;
-  } else {
-    bForwardRunWheel = !iEROMCWDirect[index];;
-  }
-  DUMP_VAR(bForwardRunWheel);
-  iTargetVolumeStartDelay[index] = iEROMStartDelay[index];
-  if(iTargetVolumeStartDelay[index] < 1) {
-    runWheel(iConstStarSpeed,bForwardRunWheel,index);
-  }
-  iTargetVolumePayload[index] = payload;
-  iMotorTurnCounter[index] = 0;
-
-  //if(iEROMPWMLogLevel > 0 )
-  {
-    String resTex;
-    resTex += "dummy:bIsRunWheelByVolume,";
-    resTex += String(bIsRunWheelByVolume[index]);
-    resTex += ":iTargetVolumePostionWheel,";
-    resTex += String(iTargetVolumePostionWheel[index]);
-    resTex += ":iVolumeDistanceWheel,";
-    resTex += String(iVolumeDistanceWheel[index]);
-    resTex += ":iTargetVolumePayload,";
-    resTex += String(iTargetVolumePayload[index]);
-    responseTextTag(resTex);
-  }
-
-
+  iDistanceTof = distance;
 }
 
 
 
 
-uint32_t iConstPWMFactorDive = 100;
-int calWheelSpeedPwm(int16_t eDistance,int index) {
-  uint32_t distance = abs(eDistance);
-  int gain = iEROMPWMGainEmpty[index];
-  if(iTargetVolumePayload[index] > 0) {
-    gain = iEROMPWMGainPlayLoad[index];
-  }
-  uint32_t pwmK = gain * distance / iConstPWMFactorDive;
-  if(pwmK > iConstStarSpeed) {
-   iOutPutPWM[index] = iConstStarSpeed;
-   return iConstStarSpeed;
-  }
-  int pwm = pwmK;
-  iOutPutPWM[index] = pwm;
-  return pwm;
-}
-bool calWheelCW(int16_t eDistance,int index) {
-  bool bForwardRunWheel;
-  if(eDistance > 0) {
-    bForwardRunWheel = iEROMCWDirect[index];
-  } else {
-    bForwardRunWheel = !iEROMCWDirect[index];
-  }
-  return bForwardRunWheel;  
-}
-
-void calcWheelTarget(int index) {
-  if(bIsRunWheelByVolume[index] == false) {
-    return;
-  }
-  int16_t current = iVolumeDistanceWheel[index];
-  int16_t target = iTargetVolumePostionWheel[index];
-  int16_t toMoveDiff =  target - current;
-  int speedPwm = calWheelSpeedPwm(toMoveDiff,index);
-  bool bForwardRunWheel = calWheelCW(toMoveDiff,index);
-  runWheel(speedPwm,bForwardRunWheel,index);
-
-  /*
-  if(iEROMPWMLogLevel > 0 ) {
-    String resTex;
-    resTex += "dummy:bForwardRunWheel,";
-    resTex += String(bForwardRunWheel);
-    resTex += ":speedPwm,";
-    resTex += String(speedPwm);
-    resTex += ":leg,";
-    resTex += String(iEROMLegId[index]);
-    responseTextTag(resTex);
-  }
-  */
-}
 
 
 bool readTagValue(String tag,String shortTag , int16_t *val) {
