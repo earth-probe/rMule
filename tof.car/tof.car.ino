@@ -246,7 +246,7 @@ static long wheelRunCounter[MAX_MOTOR_CH] = {-1,-1};
 static long const iRunTimeoutCounter = 100L;
 
 #define FRONT_WHEEL(index) { \
-  speed_wheel[index] = 0x0;\
+  analogWrite(MOTER_PWM_WHEEL[index], 0x0);\
   wheelRunCounter[index] = iRunTimeoutCounter; \
   if(index == 0) {\
     digitalWrite(MOTER_CCW_WHEEL[index], LOW);\
@@ -255,7 +255,7 @@ static long const iRunTimeoutCounter = 100L;
   }\
 }
 #define BACK_WHEEL(index) { \
-  speed_wheel[index] = 0x0;\
+  analogWrite(MOTER_PWM_WHEEL[index], 0x0);\
   wheelRunCounter[index] = iRunTimeoutCounter; \
   if(index == 0) {\
     digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
@@ -264,7 +264,6 @@ static long const iRunTimeoutCounter = 100L;
   }\
 }
 #define STOP_WHEEL(index) {\
-  speed_wheel[index] = 0xff;\
   analogWrite(MOTER_PWM_WHEEL[index], 0xff);\
 }
 
@@ -466,6 +465,7 @@ void checkOverRunMax(void) {
     responseTextTag(resTex);
 */
     STOP_WHEEL(0);
+    digitalWrite(LED_BUILTIN, LOW);
   } else {
 /*    
     String resTex;
@@ -482,6 +482,7 @@ void checkOverRunMax(void) {
     responseTextTag(resTex);
 */
     STOP_WHEEL(1);
+    digitalWrite(LED_BUILTIN, LOW);
   } else {
 /*    
     String resTex;
