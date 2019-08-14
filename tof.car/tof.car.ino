@@ -51,6 +51,7 @@ void loadEROM(void);
 
 void setup()
 {
+  pinMode(LED_BUILTIN, OUTPUT);
   // set pwm 9,10
   TCCR1B &= B11111000;
   TCCR1B |= B00000001;
@@ -112,10 +113,12 @@ void setupTof() {
 
 void checkOverRunMax(void);
 void runSerialCommand(void);
+void runByTofRange(void);
 void loop() {
   readTof();
   runSerialCommand();
   checkOverRunMax();
+  runByTofRange();
 }
 
 
@@ -140,7 +143,7 @@ void loadEROM1Byte(int address,uint8_t *dst) {
 
 void loadEROM2ByteSingle(int address,uint16_t *dst) {
   uint16_t value1 = EEPROM.read(address);
-  uint16_t value2 = EEPROM.read(address);
+  uint16_t value2 = EEPROM.read(address + 1);
   *dst = value1 | value2 << 8;;
 }
 
@@ -199,11 +202,11 @@ void saveEROM2Byte(int index,int address[],uint16_t valueRam[],String tag) {
   }
 }
 
-void saveEROM2ByteSingle(int address,uint16_t valueRam,String tag) {
+void saveEROM2ByteSingle(int address,uint16_t *valueRam,String tag) {
   int valueTag = 0;
   if(readTagValue(tag,"",&valueTag)) {
     saveEROM(address,valueTag);
-    valueRam =  valueTag;
+    *valueRam =  valueTag;
   }
 }
 
@@ -224,8 +227,8 @@ void runSetting(void) {
   saveEROM2Byte(0,iEROMLegIdAddress,iEROMLegId,":id0,");
   saveEROM2Byte(1,iEROMLegIdAddress,iEROMLegId,":id1,");
 
-  saveEROM2ByteSingle(iEROMTofRangeMaxAddress,iEROMTofRangeMax,":tofmax,");
-  saveEROM2ByteSingle(iEROMTofRangeMinAddress,iEROMTofRangeMin,":tofmin,");
+  saveEROM2ByteSingle(iEROMTofRangeMaxAddress,&iEROMTofRangeMax,":tofMax,");
+  saveEROM2ByteSingle(iEROMTofRangeMinAddress,&iEROMTofRangeMin,":tofMin,");
 }
 
 
@@ -240,9 +243,11 @@ void B_Motor_FGS_By_Interrupt(void) {
 
 unsigned char speed_wheel[MAX_MOTOR_CH] = {0,0};
 static long wheelRunCounter[MAX_MOTOR_CH] = {-1,-1};
-static long const iRunTimeoutCounter = 10000L * 10L;
+static long const iRunTimeoutCounter = 100L;
 
 #define FRONT_WHEEL(index) { \
+  speed_wheel[index] = 0x0;\
+  wheelRunCounter[index] = iRunTimeoutCounter; \
   if(index == 0) {\
     digitalWrite(MOTER_CCW_WHEEL[index], LOW);\
   } else {\
@@ -250,6 +255,8 @@ static long const iRunTimeoutCounter = 10000L * 10L;
   }\
 }
 #define BACK_WHEEL(index) { \
+  speed_wheel[index] = 0x0;\
+  wheelRunCounter[index] = iRunTimeoutCounter; \
   if(index == 0) {\
     digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
   } else {\
@@ -366,13 +373,16 @@ void run_comand(void) {
   if(gSerialInputCommand.startsWith("gpio:") || gSerialInputCommand.startsWith("G:")) {
     runGPIO();
   }
-  if(gSerialInputCommand.startsWith("wheel:") || gSerialInputCommand.startsWith("W:")) {
-    runWheelByTag();
-  }
   if(gSerialInputCommand.startsWith("who:") || gSerialInputCommand.startsWith("H:")) {
     whois();
   }
+  if(gSerialInputCommand.startsWith("tofMove:") || gSerialInputCommand.startsWith("TM:")) {
+    runWheelByTof();
+  }
 }
+
+int iDistanceTof = 0;
+
 void runInfo(void) {
   String resTex;
   responseTextStart(resTex);
@@ -383,6 +393,14 @@ void runInfo(void) {
   resTex += String(iEROMLegId[0]);      
   resTex += ":id1,";
   resTex += String(iEROMLegId[1]);      
+  resTex += ":lv,";
+  resTex += String(iEROMLogLevel);
+  resTex += ":tof,";
+  resTex += String(iDistanceTof);
+  resTex += ":tofMax,";
+  resTex += String(iEROMTofRangeMax);
+  resTex += ":tofMin,";
+  resTex += String(iEROMTofRangeMin);
   responseTextFinnish(resTex);
 }
 
@@ -395,14 +413,28 @@ void whois(void) {
 int iOutPutPWM[MAX_MOTOR_CH] = {0,0};
 
 
-void runWheelByTag(void) {
-  int volDistA = 0;
-  if(readTagValue(":v0,",":vol0,",&volDistA)) {
-    DUMP_VAR(volDistA);
-  }
-  int volDistB = 0;
-  if(readTagValue(":v1,",":vol1,",&volDistB)) {
-    DUMP_VAR(volDistB);
+
+
+void runWheelByTof(void) {
+  int digital = 0;
+  if(readTagValue(":v0,",":digital,",&digital)) {
+    DUMP_VAR(digital);
+    String resTex;
+    resTex += "dummy:digital,";
+    resTex += String(digital);
+    responseTextTag(resTex);
+    if(digital == 0) {
+      STOP_WHEEL(0);
+      STOP_WHEEL(1);
+    }
+    if(digital == 1) {
+      FRONT_WHEEL(0);
+      FRONT_WHEEL(1);
+    }
+    if(digital == -1) {
+      BACK_WHEEL(0);
+      BACK_WHEEL(1);
+    }
   }
 }
 
@@ -423,73 +455,41 @@ void checkOverRunMaxWheel(int index) {
 }
 */
 
-int iPrevVolumeDistanceWheel[2] = {};
-int iConstMoveJudgeDiff = 1;
-
-static uint16_t iCheckOverCounter[MAX_MOTOR_CH] = {0,0};
-
-void checkOverRunMaxWheel(int index) {
-  /*
-  if(iEROMPWMLogLevel > 0 ){
-    String resTex;
-    resTex += "dummy:iOutPutPWM,";
-    resTex += String(iOutPutPWM[index]);
-    resTex += ":counter,";
-    resTex += String(counter);
-    responseTextTag(resTex);
-  }
-  */
-  if(abs(iOutPutPWM[index]) > 0) {
-   if(++iCheckOverCounter[index]%4000) {
-    return;
-   }
-   int delta = abs(iVolumeDistanceWheel[index] - iPrevVolumeDistanceWheel[index]);
-    /*
-    if(iEROMPWMLogLevel > 0 ){
-      String resTex;
-      resTex += "dummy:iOutPutPWM,";
-      resTex += String(iOutPutPWM[index]);
-      resTex += ":delta,";
-      resTex += String(delta);
-      responseTextTag(resTex);
-    }
-    */
-    if(delta < iConstMoveJudgeDiff) {
-      bIsRunWheelByVolume[index] = false;
-      STOP_WHEEL(index);
-      int stopAtPWM = iOutPutPWM[index];
-      iOutPutPWM[index] = 0;
-      iCheckOverCounter[index] = 0;
-      
-      {
-        String resTex;
-        resTex += "dummy:delta,";
-        resTex += String(delta);
-        resTex += ":stopAtPWM,";
-        resTex += String(stopAtPWM);
-        resTex += ":bIsRunWheelByVolume,";
-        resTex += String(bIsRunWheelByVolume[index]);
-        resTex += ":iMotorTurnCounter,";
-        resTex += String(iMotorTurnCounter[index]);
-        responseTextTag(resTex);
-      }
-    }
-  }
-  iPrevVolumeDistanceWheel[index] = iVolumeDistanceWheel[index];
-}
-
 
 void checkOverRunMax(void) {
-
   // stop
   if(wheelRunCounter[0]-- <= 0 ) {
+/*
+    String resTex;
+    resTex += "dummy:wheelRunCounter[0],";
+    resTex += String(wheelRunCounter[0]);
+    responseTextTag(resTex);
+*/
     STOP_WHEEL(0);
-  }  
+  } else {
+/*    
+    String resTex;
+    resTex += "dummy:wheelRunCounter[0],";
+    resTex += String(wheelRunCounter[0]);
+    responseTextTag(resTex);
+*/
+  } 
   if(wheelRunCounter[1]-- <= 0 ) {
+/*
+    String resTex;
+    resTex += "dummy:wheelRunCounter[1],";
+    resTex += String(wheelRunCounter[1]);
+    responseTextTag(resTex);
+*/
     STOP_WHEEL(1);
-  }  
-  checkOverRunMaxWheel(0);
-  checkOverRunMaxWheel(1);
+  } else {
+/*    
+    String resTex;
+    resTex += "dummy:wheelRunCounter[1],";
+    resTex += String(wheelRunCounter[1]);
+    responseTextTag(resTex);
+*/
+  }
 }
 
 
@@ -500,16 +500,15 @@ void checkOverRunMax(void) {
 
 int iDistanceTofReportCounter = 1;
 const int iDistanceTofReportSkip = 50;
-int iDistanceTof = 0;
 
 void readTof() {
   int distance = sensor.readRangeSingleMillimeters();
-  //DUMP_VAR(distance);
+  DUMP_VAR(distance);
   if(distance <= 0 || distance >= 8191) {
     return ;
   }
   bool isReport = (iDistanceTofReportCounter++%iDistanceTofReportSkip) == 0;
-  //DUMP_VAR(isReport);
+  DUMP_VAR(isReport);
   if(isReport) {
     String resTex;
     resTex += "tof:distance,";
@@ -519,7 +518,22 @@ void readTof() {
   iDistanceTof = distance;
 }
 
-
+void runByTofRange(void) {
+  if(iDistanceTof > iEROMTofRangeMax) {
+    return ;
+  }
+  if(iDistanceTof < iEROMTofRangeMin) {
+    return ;
+  }
+  FRONT_WHEEL(0);
+  FRONT_WHEEL(1);
+  static int blinkCounter = 0;
+  if(blinkCounter++%2) {
+    digitalWrite(LED_BUILTIN, HIGH);
+  } else {
+    digitalWrite(LED_BUILTIN, LOW);
+  }
+}
 
 
 

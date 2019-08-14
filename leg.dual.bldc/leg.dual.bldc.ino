@@ -490,9 +490,9 @@ void runInfo(void) {
   resTex += ":sd1,";
   resTex += String(iEROMStartDelay[1]);
   resTex += ":lv,";
+  resTex += String(iEROMPWMLogLevel);
   responseTextContinue(resTex);
   resTex = "";
-  resTex += String(iEROMPWMLogLevel);
   resTex += ":pwmGain1,";
   resTex += String(iEROMPWMGainEmpty[1]);
   resTex += ":pwmGainPL1,";
