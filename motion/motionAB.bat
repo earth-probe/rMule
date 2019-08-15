@@ -1,0 +1,2 @@
+node ./motionAB.js
+pause
