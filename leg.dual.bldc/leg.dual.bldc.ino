@@ -86,7 +86,7 @@ void loop() {
   calcWheelTarget(0);
   calcWheelTarget(1);
   checkOverRunMax();
-  loopSpeedTest();
+//  loopSpeedTest();
 }
 
 
@@ -141,6 +141,7 @@ void loadEROM2ByteSign(int index,int address[],int16_t dst[]) {
   dst[index] = value1 | value2 << 8;;
 }
 
+/*
 void loadEROMFloat(int index,int address[],float dst[]) {
   uint32_t value1 = EEPROM.read(address[index]);
   uint32_t value2 = EEPROM.read(address[index]+1);
@@ -150,6 +151,7 @@ void loadEROMFloat(int index,int address[],float dst[]) {
   float value = saveValue;
   dst[index] = value;
 }
+*/
 
 
 void loadEROM(void) {
@@ -634,19 +636,21 @@ void moveGroupToPosition() {
     DUMP_VAR(group);
     int legIndex1 = -1;
     int legIndex2 = -1;
+    int flag1 = iEROMGroup[0] & 0x1;
+    int flag2 = iEROMGroup[1] & 0x1;
     if(group == "aa") {
-      if(iEROMGroup[0] & 0x1 == 0) {
+      if( flag1 == 0) {
         legIndex1 = 0;
       }
-      if(iEROMGroup[1] & 0x1 == 0) {
+      if(flag2 == 0) {
         legIndex1 = 1;
       }
     }
     if(group == "bb") {
-      if(iEROMGroup[0] & 0x1 == 1) {
+      if(flag1 == 1) {
         legIndex1 = 0;
       }
-      if(iEROMGroup[1] & 0x1 == 1) {
+      if(flag2 == 1) {
         legIndex1 = 1;
       }
     }
@@ -661,6 +665,14 @@ void moveGroupToPosition() {
       resTex += group;
       resTex += ",legIndex1:";
       resTex += String(legIndex1);
+      resTex += ",iEROMGroup[0]:";
+      resTex += String(iEROMGroup[0]);
+      resTex += ",iEROMGroup[1]:";
+      resTex += String(iEROMGroup[1]);
+      resTex += ",flag1:";
+      resTex += String(flag1);
+      resTex += ",flag2:";
+      resTex += String(flag2);
       responseTextTag(resTex);
       return ;
     }
@@ -956,7 +968,6 @@ void runGPIO(void) {
 }
 
 
-#if 0
 static uint32_t iConstSpeedCounterMax = 100;
 void loopSpeedTest() {
   static uint32_t speedCounter = 0;
@@ -967,7 +978,3 @@ void loopSpeedTest() {
       speedCounter = 0;
   }
 }
-#else
-void loopSpeedTest() {
-}
-#endif
