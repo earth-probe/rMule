@@ -5,7 +5,7 @@ const lowStrokeAir = 0
 const highStrokeEarth = 100;
 const lowStrokeEarth = 0
 
-const gMotionLoopMax = 2;
+const gMotionLoopMax = 4;
 
 left_front_earth = [
   ["move",'bb',highStrokeEarth,1],
@@ -60,8 +60,8 @@ all_back_air = [
 
 
 
-wait_space = 2.0
-wait_space_air = 1.3
+wait_space = 2.5
+wait_space_air = 1.8
 
 // walk in 3 step.
 scenario_walk = [
