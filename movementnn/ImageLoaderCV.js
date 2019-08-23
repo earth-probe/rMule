@@ -35,7 +35,7 @@ module.exports = class ImageLoaderCV {
         pixels.push(this.grayMat_.at(y,x));
       }
     }
-    return pixels;
+    return {pix:pixels,cols:this.grayMat_.cols,rows:this.grayMat_.rows};
   }
   
   dumpClips_(blockPixs,channelMat) {
