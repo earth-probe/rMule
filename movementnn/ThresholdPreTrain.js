@@ -5,8 +5,11 @@ const ifft = require('fft-js').ifft;
 
 
 const fConstMinValueDiff = 0.0000001;
-// 2+1+2 顶点+两边各2各点
-const fConstActiveThreshold = 1.0/2.0;
+// 2+1+2 顶点+两边各2各点 5点中心
+//const fConstActiveThreshold = 1.0/2.0;
+// 1+1+1 顶点+两边各1各点 3点中心
+const fConstActiveThreshold = 1.0/1.0;
+
 const fConstMinCenterHeight = 0.1;
 
 module.exports = class ThresholdPreTrain {
