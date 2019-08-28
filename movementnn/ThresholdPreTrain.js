@@ -50,8 +50,9 @@ module.exports = class ThresholdPreTrain {
     this.topPeaks_ =  this.peak_(inputStats);
     //console.log('ThresholdPreTrain::step this.topPeaks_=<',this.topPeaks_,'>');
     const hexOut = this.learHex16_(inputVectors.pix);
-    console.log('ThresholdPreTrain::step hexOut=<',hexOut,'>');
-    console.log('ThresholdPreTrain::step inputVectors=<',inputVectors,'>');
+    //console.log('ThresholdPreTrain::step hexOut=<',hexOut,'>');
+    //console.log('ThresholdPreTrain::step inputVectors=<',inputVectors,'>');
+    this.dumpBinary2Png_(inputVectors,hexOut)
   }
   
   
@@ -115,7 +116,7 @@ module.exports = class ThresholdPreTrain {
     console.log('ThresholdPreTrain::learHex16_ this.hexPeaks_=<',this.hexPeaks_,'>');
     
     let hexPeakOut = this.caclHexOutput_(inputVectors,this.hexPeaks_);
-    console.log('ThresholdPreTrain::learHex16_ hexPeakOut=<',hexPeakOut,'>');
+    //console.log('ThresholdPreTrain::learHex16_ hexPeakOut=<',hexPeakOut,'>');
     return hexPeakOut;
   }
   
@@ -197,8 +198,9 @@ module.exports = class ThresholdPreTrain {
       }
     }    
     const hintRate = hintCounter/inputVectors.length;
-    console.log('ThresholdPreTrain::caclHexOutput_ hintRate=<',hintRate,'>');
-    console.log('ThresholdPreTrain::caclHexOutput_ output=<',output,'>');
+    //console.log('ThresholdPreTrain::caclHexOutput_ hintRate=<',hintRate,'>');
+    //console.log('ThresholdPreTrain::caclHexOutput_ output=<',output,'>');
+    output.hintRate = hintRate;
     return output;
   }
 
@@ -251,5 +253,9 @@ module.exports = class ThresholdPreTrain {
     const frequencies = fftUtil.fftFreq(phasors, 8000);
     console.log('PreTrain::step frequencies=<',frequencies,'>');
     */
+  }
+  dumpBinary2Png_(pixs,binaris) {
+    console.log('ThresholdPreTrain::dumpBinary2Png_ pixs=<',pixs,'>');
+    console.log('ThresholdPreTrain::dumpBinary2Png_ binaris=<',binaris,'>');
   }
 };
