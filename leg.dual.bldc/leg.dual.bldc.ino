@@ -123,7 +123,11 @@ uint16_t  iEROMGroup[MAX_MOTOR_CH] = {0x0,0x0};
 bool bZeroPositionNearSmall[MAX_MOTOR_CH] = {false,false};
 
 
+bool readTagValue(String tag,String shortTag , int16_t *val);
+void runGPIO();
 
+
+const int iConstBasePWM = 32;
 void loadEROM1Byte(int address,uint8_t *dst) {
   uint8_t value1 = EEPROM.read(address);
   *dst = value1;
@@ -238,7 +242,7 @@ void saveEROM2Byte(int index,int address[],uint16_t valueRam[],String tag) {
   }
 }
 
-
+bool readTagValue(String tag,String shortTag , int16_t *val);
 
 void saveEROM2ByteSign(int index,int address[],int16_t valueRam[],String tag) {
   int16_t valueTag = 0;
@@ -310,8 +314,8 @@ static long const iRunTimeoutCounter = 100L*1000L;
   digitalWrite(MOTER_CCW_WHEEL[index], HIGH);\
 }
 #define STOP_WHEEL(index) {\
-  speed_wheel[index] = 0x0;\
-  analogWrite(MOTER_PWM_WHEEL[index], 0x0);\
+  speed_wheel[index] = iConstBasePWM;\
+  analogWrite(MOTER_PWM_WHEEL[index], iConstBasePWM);\
 }
 
 
@@ -403,6 +407,9 @@ void run_simple_command(void) {
   }
 }
 
+void moveLegToPosition();
+void getLegPosition();
+void moveGroupToPosition();
 
 void run_comand(void) {
   //DUMP_VAR(InputCommand);
@@ -511,7 +518,9 @@ void whois(void) {
 }
 
 int iOutPutPWM[MAX_MOTOR_CH] = {0,0};
+void runWheelVolume(int distPostion,int index,int payload);
 
+bool readTagValue(String tag,String shortTag , int16_t *val);
 
 void runWheelByTag(void) {
   int volDistA = 0;
@@ -525,6 +534,7 @@ void runWheelByTag(void) {
     runWheelVolume(volDistB,1,0);
   }
 }
+
 
 
 void readStatus() {
@@ -551,7 +561,7 @@ void checkOverRunMaxWheel(int index) {
       bIsRunWheelByVolume[index] = false;
       STOP_WHEEL(index);
       int stopAtPWM = iOutPutPWM[index];
-      iOutPutPWM[index] = 0;
+      iOutPutPWM[index] = iConstBasePWM;
       iCheckOverCounter[index] = 0;
       
       {
